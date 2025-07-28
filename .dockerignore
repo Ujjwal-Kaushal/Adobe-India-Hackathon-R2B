@@ -1,0 +1,21 @@
+# .dockerignore
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local virtual environment
+.venv/
+venv/
+
+# Local model and output directories (will be created inside the container)
+models/
+st_home/
+app/output/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store

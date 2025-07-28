@@ -1,0 +1,14 @@
+# requirements.txt (Optimized for CPU)
+
+# Forcing a CPU-only version of PyTorch to avoid large CUDA libraries
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+torchaudio
+
+# Core application dependencies
+sentence-transformers
+llama-cpp-python
+PyMuPDF
+numpy
+huggingface-hub
