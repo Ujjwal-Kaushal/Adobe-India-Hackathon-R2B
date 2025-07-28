@@ -1,0 +1,19 @@
+# --- Models ---
+# This is the most important rule. It ignores the entire models directory.
+models/
+
+# --- Python Artifacts ---
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+myenv/
+
+# --- Generated Output ---
+**/output.json
+**/challenge*output.json
+
+# --- IDE/OS Files ---
+.vscode/
+.DS_Store
